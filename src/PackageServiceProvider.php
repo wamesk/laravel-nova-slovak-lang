@@ -15,9 +15,11 @@ class PackageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Helpers::copyDir(__DIR__ . '/../resources/lang/', resource_path('lang'));
+        if ($this->app->runningInConsole()) {
+            Helpers::copyDir(__DIR__ . '/../resources/lang/', resource_path('lang'));
 
-        $this->loadJSONTranslationsFrom(resource_path('lang'));
+            $this->loadJSONTranslationsFrom(resource_path('lang'));
+        }
     }
 
 }
