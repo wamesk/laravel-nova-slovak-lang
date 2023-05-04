@@ -15,7 +15,7 @@ class PackageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if ($this->app->runningInConsole()) {
+        if ($this->app->runningInConsole() && !$this->app->environment('production')) {
             Helpers::copyDir(__DIR__ . '/../resources/lang/', resource_path('lang'));
 
             $this->loadJSONTranslationsFrom(resource_path('lang'));
