@@ -458,5 +458,12 @@
     "Filename": "Názov súboru",
     "Type": "Typ",
     "CSV (.csv)": "CSV (.csv)",
-    "Excel (.xlsx)": "Excel (.xlsx)"
+    "Excel (.xlsx)": "Excel (.xlsx)",
+    "Roles": "Roly",
+    "Permissions": "Povolenia",
+    "Roles & Permissions": "Roly a povolenia",
+    "Name": "Názov",
+    "Users": "Používatelia",
+    "Guard Name": "Meno strážcu",
+    "Role": "Rola"
 }
