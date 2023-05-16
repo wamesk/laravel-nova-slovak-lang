@@ -369,9 +369,9 @@
     "The resource was updated!": "Položka bola upravená!",
     "The :resource was deleted!": "Položka bola vymazaná!",
     "The :resource was restored!": "Položka bola obnovená!",
-    "Increase": "Zvýšiť",
+    "Increase": "Navýšenie",
     "Constant": "Konštatne",
-    "Decrease": "Znižiť",
+    "Decrease": "Zníženie",
     "Reset Password Notification": "Obnovenie hesla",
     "Nova User": "Nova používateľ",
     "of": "z",
@@ -411,6 +411,7 @@
     "This file field is read-only.": "Pole je určené len na čítanie",
     "No additional information...": "Žiadne dodatočné informácie...",
     "ID": "ID",
+    "7 Days": "7 dní",
     "30 Days": "30 Dní",
     "60 Days": "60 Dní",
     "90 Days": "90 Dní",
@@ -465,5 +466,6 @@
     "Name": "Názov",
     "Users": "Používatelia",
     "Guard Name": "Meno strážcu",
-    "Role": "Rola"
+    "Role": "Rola",
+    "Add New Media": "Pridaj obrázok",
 }
